@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About APP NAME",
+    "section": "",
+    "text": "format for including pictures:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ViruScan",
+    "section": "",
+    "text": "ViruScan Banner"
+  },
+  {
+    "objectID": "index.html#welcome-to-viruscan",
+    "href": "index.html#welcome-to-viruscan",
+    "title": "ViruScan",
+    "section": "Welcome to ViruScan",
+    "text": "Welcome to ViruScan\nThis website is made to simulate a contact tracing app’s surveillance dashboards for Natalie Cann’s EPID 8110 Digital Tools in Health Research Course Project."
+  }
+]

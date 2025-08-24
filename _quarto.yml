@@ -1,0 +1,36 @@
+project: 
+  type: website
+  output-dir: docs
+
+website:
+  title: "ViruScan"
+  navbar:
+    left:
+      - text: "About APP NAME"
+        file: about.qmd
+      - text: "Dashboards"
+        menu:
+          - text: "COVID-19"
+            file: Dashboards/COVID19.qmd
+          - text: "Influenza"
+            file: Dashboards/Influenza.qmd
+          - text: "Rhinovirus (Common Cold)"
+            file: Dashboards/Rhinovirus.qmd
+          - text: "Respiratory Syncytial Virus (RSV)"
+            file: Dashboards/RSV.qmd
+      - text: "Testing & Vaccination Sites"
+        menu:
+          - text: "Testing"
+            file: Testing_Vaccination/Testing.qmd
+          - text: "Vaccination"
+            file: Testing_Vaccination/Vaccination.qmd
+
+    right:
+      - icon: github 
+        href: https://github.com/NatalieCann16/Digital-Tools-Project   
+format:
+  html:
+    theme: yeti
+    highlight: zenburn
+    css: styles.css
+    toc: FALSE

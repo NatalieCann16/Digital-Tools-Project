@@ -1,0 +1,9 @@
+---
+title: "ViruScan"
+---
+![ViruScan Banner](frontpagebanner.png)
+
+## Welcome to ViruScan
+
+This website is made to simulate a contact tracing app's surveillance dashboards for Natalie Cann's EPID 8110 Digital Tools in Health Research Course Project. 
+

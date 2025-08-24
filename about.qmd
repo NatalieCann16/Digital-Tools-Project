@@ -1,0 +1,10 @@
+---
+title: "ViruScan"
+---
+# 
+
+format for including pictures: 
+*![Graduation Photo](GraduationPicture.jpg)*
+
+
+
