@@ -3,3 +3,143 @@ title: "RSV"
 format: html
 ---
 
+## Overall University Report for Respiratory Syncytial Virus (RSV)
+
+::: {.columns}
+::: {.column width="60%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Load libraries
+library(ggplot2)
+library(dplyr)
+
+# Create mock RSV data for ~40,000 students
+set.seed(101)
+rsv_data <- data.frame(
+  Date = seq.Date(from = as.Date("2025-01-01"), by = "month", length.out = 12)
+) %>%
+  mutate(
+    Month = as.integer(format(Date, "%m")),
+    # RSV peaks in late fall/winter, fewer cases in spring, minimal in summer
+    Cases = case_when(
+      Month %in% c(11, 12, 1, 2) ~ sample(500:800, 1),   # peak late fall & winter
+      Month %in% c(3, 4, 10) ~ sample(200:400, 1),       # shoulder season
+      Month %in% c(5, 6, 7, 8, 9) ~ sample(50:150, 1)    # summer dip
+    )
+  ) %>%
+  mutate(
+    Cumulative = cumsum(Cases)
+  )
+
+# Plot: monthly + cumulative
+rsv_plot <- ggplot(rsv_data, aes(x = Date)) +
+  geom_area(aes(y = Cumulative, fill = "Cumulative Cases"), alpha = 0.3) +
+  geom_line(aes(y = Cumulative, color = "Cumulative Cases"), linewidth = 1.2) +
+  geom_point(aes(y = Cumulative, color = "Cumulative Cases"), size = 3) +
+  geom_line(aes(y = Cases, color = "Monthly Cases"), linewidth = 1.2) +
+  geom_point(aes(y = Cases, color = "Monthly Cases"), size = 3) +
+  labs(
+    title = "RSV (Respiratory Syncytial Virus) Cases \n\ (Monthly vs. Cumulative)",
+    x = "Month of the Year (2025)",
+    y = "Number of Cases",
+    color = "",
+    fill = ""
+  ) +
+  scale_x_date(date_breaks = "1 month", date_labels = "%B") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 18),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "bottom"
+  ) +
+  scale_color_manual(values = c("Monthly Cases" = "#78c2db", "Cumulative Cases" = "#84cdb5")) +
+  scale_fill_manual(values = c("Cumulative Cases" = "#84cdb5"))
+
+rsv_plot
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Active cases = ~25% of latest month's cases
+active_cases_rsv <- round(last(rsv_data$Cases) * 0.25)
+
+# Past 72 hours = ~10% of latest month's cases
+cases_72h_rsv <- round(last(rsv_data$Cases) * 0.10)
+
+# Summary box
+htmltools::tags$div(
+  style = "margin-top:15px; padding:15px; border-radius:8px; 
+           background-color:#f0f8ff; width:80%; 
+           box-shadow:0 2px 5px rgba(0,0,0,0.1);",
+  htmltools::tags$h4("November 15th, 2025, Summary (as of latest data)", style="font-weight:bold;"),
+  htmltools::tags$p(paste("Active Cases:", format(active_cases_rsv, big.mark=","))),
+  htmltools::tags$p(paste("Cases in Past 72 Hours:", format(cases_72h_rsv, big.mark=",")))
+)
+```
+:::
+
+::: {.column width="40%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(gt)
+
+# Build table
+rsv_table <- rsv_data %>%
+  mutate(Month_Name = format(Date, "%B")) %>%
+  select(Month_Name, Cases, Cumulative)
+
+# gt table
+gt_rsv <- rsv_table %>%
+  gt() %>%
+  tab_header(title = "Monthly and Cumulative RSV Cases (2025)") %>%
+  cols_label(
+    Month_Name = "Month",
+    Cases = "Monthly Cases",
+    Cumulative = "Cumulative Cases"
+  ) %>%
+  fmt_number(columns = c(Cases, Cumulative), decimals = 0, use_seps = TRUE) %>%
+  tab_options(
+    table.font.size = px(14),
+    table.width = pct(100),
+    heading.title.font.size = px(18),
+    heading.align = "center"
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_title(groups = "title")
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(everything())
+  ) %>%
+  # Alternating rows with same scheme as flu/rhino
+  tab_style(
+    style = cell_fill(color = "#E9F5F0"),
+    locations = cells_body(rows = seq(1, nrow(rsv_table), 2))
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#f0f8ff"),
+    locations = cells_body(rows = seq(2, nrow(rsv_table), 2))
+  )
+
+gt_rsv
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Quick link box
+htmltools::tags$div(
+  style = "margin-top:15px; padding:10px; border-radius:6px; 
+           background-color:#E9F5F0; width:100%; 
+           box-shadow:0 2px 5px rgba(0,0,0,0.1); text-align:center;",
+  htmltools::tags$a(
+    href = "https://www.cdc.gov/rsv/index.html",
+    target = "_blank",
+    style = "color:black; font-weight:bold; text-decoration:none;",
+    "Visit CDC RSV Page"
+  )
+)
+```
+:::
+
+About RSV (Respiratory Syncytial Virus)
+
+The information below in the infographic came from the Centers for Disease Control & Prevention. This information is not meant to replace seeking guidance from a healthcare provider. If you are feeling ill or have questions, please call your healthcare provider or the University Health Center.
+
+![RSV Infographic](RSVinfographic.png)

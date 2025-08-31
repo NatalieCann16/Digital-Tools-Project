@@ -5,8 +5,9 @@ project:
 website:
   title: "ViruScan"
   navbar:
+    logo: altapplogo.png
     left:
-      - text: "About APP NAME"
+      - text: "About ViruScan"
         file: about.qmd
       - text: "Dashboards"
         menu:
