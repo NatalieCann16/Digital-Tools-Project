@@ -11,7 +11,7 @@ Faculty and students of the University of Georgia are eligible to participate in
 Yes, all data collected through ViruScan is private and secure. Notifications of exposure will always be de-identified in order to protect the privacy of those who are cases, while also informing those who came into contact with cases. Your location will only be tracked in order to determine potential exposures while on the university's campus.
 
 ## How to Download?
-In order to download ViruScan, you must have a smartphone. Search 'ViruScan' in your smartphone's app store - search for the UGA ViruScan logo. Download onto your phone and then login using your UGAID number and 2-Factor Authentication method. 
+In order to download ViruScan, you must have a smartphone. Search 'UGA Safe' in your smartphone's app store. Download onto your phone and then login using your UGAID number and 2-Factor Authentication method. Click on ViruScan within the UGA Safe app and follow in-app set-up instructions.
 
 ![Download Banner](downloadbanner.png)
 
