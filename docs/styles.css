@@ -6,3 +6,24 @@ body {
 h1.title {
   text-align: center;
 }
+
+/* Footer container */
+.page-footer {
+  background-color: #008cba; /* Same Blue as Top Menu */
+  padding: 12px 0;
+  text-align: center;
+}
+
+/* Footer links */
+.page-footer a {
+  color: white;              /* white text on blue */
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+/* Hover effect */
+.page-footer a:hover {
+  text-decoration: underline;
+}

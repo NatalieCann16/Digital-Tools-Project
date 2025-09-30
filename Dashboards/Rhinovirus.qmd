@@ -146,4 +146,4 @@ htmltools::tags$div(
 
 The information below in the infographic came from the Centers for Disease Control & Prevention. This information is not meant to replace seeking guidance from a healthcare provider. If you are feeling ill or have questions, please call your healthcare provider or the University Health Center.
 
-![Rhinovirus Infographic](Rhinovirusinfographic.png)
+![](Cold/Rhinovirusinfographic.png)

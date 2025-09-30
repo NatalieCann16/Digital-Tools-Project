@@ -9,7 +9,7 @@ format:
 
 <h2 style="text-align: center;">What is ViruScan?</h2>
 
-<img src="altapplogo.png" alt="App Logo" style="float: right; margin-left: 20px; width: 150px;">
+<img src="altapplogo.png" alt="" style="float: right; margin-left: 20px; width: 150px;">
 
 - ViruScan is a respiratory virus contact tracing app for students and faculty at the University of Georgia. 
 
@@ -37,7 +37,7 @@ each academic year.
 
 <h2 style="text-align: center;">How Do I Download ViruScan?</h2>
 
-<img src="UGA_Safe_homepage.png" alt="UGA Safe Homepage" style="float: right; margin-left: 20px; width: 150px;">
+<img src="about_png/UGA_Safe_homepage.png" alt="" style="float: right; margin-left: 20px; width: 150px;">
 
 In order to download ViruScan, you must have a smartphone. 
 
@@ -49,4 +49,4 @@ In order to download ViruScan, you must have a smartphone.
 
 4. Enable ViruScan to track your location so it is able to determine your recent contacts. You can do this in the settings for UGA Safe. 
 
-![](downloadqr.png)
+![](about_png/downloadqr.png)
