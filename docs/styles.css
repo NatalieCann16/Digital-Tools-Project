@@ -1,1 +1,8 @@
 /* css styles */
+body {
+  background-color: #f0f8ff; /* very light blue (AliceBlue) */
+}
+
+h1.title {
+  text-align: center;
+}

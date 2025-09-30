@@ -2,21 +2,21 @@
   {
     "objectID": "Dashboards/Rhinovirus.html",
     "href": "Dashboards/Rhinovirus.html",
-    "title": "Rhinovirus",
+    "title": "RhinoVirus (Common Cold)",
     "section": "",
     "text": "Active Cases: 293\nCases in Past 72 Hours: 117\n\n\n\n\n\n\n\n\n\n\n\n\nMonthly and Cumulative Rhinovirus Cases (2025)\n\n\nMonth\nMonthly Cases\nCumulative Cases\n\n\n\n\nJanuary\n1,171\n1,171\n\n\nFebruary\n1,979\n3,150\n\n\nMarch\n1,979\n5,129\n\n\nApril\n1,979\n7,108\n\n\nMay\n597\n7,705\n\n\nJune\n597\n8,302\n\n\nJuly\n597\n8,899\n\n\nAugust\n597\n9,496\n\n\nSeptember\n1,979\n11,475\n\n\nOctober\n1,979\n13,454\n\n\nNovember\n1,979\n15,433\n\n\nDecember\n1,171\n16,604\n\n\n\n\n\n\n\n\n\n\nVisit CDC Rhinovirus Page\n\n\n\n\n\nThe information below in the infographic came from the Centers for Disease Control & Prevention. This information is not meant to replace seeking guidance from a healthcare provider. If you are feeling ill or have questions, please call your healthcare provider or the University Health Center.\n\n\n\nRhinovirus Infographic"
   },
   {
     "objectID": "Dashboards/Rhinovirus.html#overall-university-report-for-rhinovirus-common-cold",
     "href": "Dashboards/Rhinovirus.html#overall-university-report-for-rhinovirus-common-cold",
-    "title": "Rhinovirus",
+    "title": "RhinoVirus (Common Cold)",
     "section": "",
     "text": "Active Cases: 293\nCases in Past 72 Hours: 117\n\n\n\n\n\n\n\n\n\n\n\n\nMonthly and Cumulative Rhinovirus Cases (2025)\n\n\nMonth\nMonthly Cases\nCumulative Cases\n\n\n\n\nJanuary\n1,171\n1,171\n\n\nFebruary\n1,979\n3,150\n\n\nMarch\n1,979\n5,129\n\n\nApril\n1,979\n7,108\n\n\nMay\n597\n7,705\n\n\nJune\n597\n8,302\n\n\nJuly\n597\n8,899\n\n\nAugust\n597\n9,496\n\n\nSeptember\n1,979\n11,475\n\n\nOctober\n1,979\n13,454\n\n\nNovember\n1,979\n15,433\n\n\nDecember\n1,171\n16,604\n\n\n\n\n\n\n\n\n\n\nVisit CDC Rhinovirus Page\n\n\n\n\n\nThe information below in the infographic came from the Centers for Disease Control & Prevention. This information is not meant to replace seeking guidance from a healthcare provider. If you are feeling ill or have questions, please call your healthcare provider or the University Health Center.\n\n\n\nRhinovirus Infographic"
   },
   {
     "objectID": "Dashboards/Rhinovirus.html#about-rhinovirus-common-cold",
     "href": "Dashboards/Rhinovirus.html#about-rhinovirus-common-cold",
-    "title": "Rhinovirus",
+    "title": "RhinoVirus (Common Cold)",
     "section": "",
     "text": "The information below in the infographic came from the Centers for Disease Control & Prevention. This information is not meant to replace seeking guidance from a healthcare provider. If you are feeling ill or have questions, please call your healthcare provider or the University Health Center.\n\n\n\nRhinovirus Infographic"
   },
@@ -46,49 +46,35 @@
     "href": "about.html",
     "title": "About ViruScan",
     "section": "",
-    "text": "ViruScan is a respiratory virus contact tracing app for students and factulty at the University of Georgia. Respiratory viruses, such as COVID-19, Influenza, Rhinovirus (the common cold), and Respiratory Syncytial Virus (RSV), are a great public health concern on college campuses, including the University of Georgia’s. It has been estimated that roughly 91% of university students contract at least one upper respiratory infection each academic year [@nicholColdsInfluenzaLikeIllnesses2005]. ViruScan’s aim is to reduce transmission of respiratory viral infections by digitizing contact tracing."
-  },
-  {
-    "objectID": "about.html#what-is-viruscan",
-    "href": "about.html#what-is-viruscan",
-    "title": "About ViruScan",
-    "section": "",
-    "text": "ViruScan is a respiratory virus contact tracing app for students and factulty at the University of Georgia. Respiratory viruses, such as COVID-19, Influenza, Rhinovirus (the common cold), and Respiratory Syncytial Virus (RSV), are a great public health concern on college campuses, including the University of Georgia’s. It has been estimated that roughly 91% of university students contract at least one upper respiratory infection each academic year [@nicholColdsInfluenzaLikeIllnesses2005]. ViruScan’s aim is to reduce transmission of respiratory viral infections by digitizing contact tracing."
+    "text": "What is ViruScan?\n\n\n\nViruScan is a respiratory virus contact tracing app for students and faculty at the University of Georgia.\nRespiratory viruses, such as COVID-19, Influenza, Rhinovirus (the common cold), and Respiratory Syncytial Virus (RSV), are a great public health concern on college campuses, including the University of Georgia’s.\nAccording to Nichols et al., it has been estimated that roughly 91% of university students contract at least one upper respiratory infection each academic year.\nViruScan’s aim is to reduce transmission of respiratory viral infections by digitizing contact tracing.\n\n\nWho is Eligible?\n\n\nFaculty and students of the University of Georgia are eligible to participate in contact tracing via ViruScan.\nStudents must be 18 years or older and must reside in Athens, GA, or commute to Athens.\n\n\nIs My Data Private?\n\n\nYes, all data collected through ViruScan is private and secure.\nNotifications of exposure will always be de-identified in order to protect the privacy of those who are cases, while also informing those who came into contact with cases.\nYour location will only be tracked in order to determine potential exposures while on the university’s campus.\n\n\nHow Do I Download ViruScan?\n\n\nIn order to download ViruScan, you must have a smartphone.\n\nSearch ‘UGA Safe’ in your smartphone’s app store.\nDownload onto your phone and then login using your UGAID number and 2-Factor Authentication method.\nClick on ViruScan within the UGA Safe app and follow in-app set-up instructions. ViruScan will appear on UGA Safe’s homepage.\nEnable ViruScan to track your location so it is able to determine your recent contacts. You can do this in the settings for UGA Safe."
   },
   {
     "objectID": "about.html#who-is-eligible",
     "href": "about.html#who-is-eligible",
-    "title": "About ViruScan",
+    "title": "About ViruScan - Frequently Asked Questions",
     "section": "Who is Eligible?",
     "text": "Who is Eligible?\nFaculty and students of the University of Georgia are eligible to participate in contact tracing via ViruScan. Students must be 18 years or older and must reside in Athens, GA, or commute to Athens."
   },
   {
     "objectID": "about.html#is-my-data-private",
     "href": "about.html#is-my-data-private",
-    "title": "About ViruScan",
+    "title": "About ViruScan - Frequently Asked Questions",
     "section": "Is My Data Private?",
     "text": "Is My Data Private?\nYes, all data collected through ViruScan is private and secure. Notifications of exposure will always be de-identified in order to protect the privacy of those who are cases, while also informing those who came into contact with cases. Your location will only be tracked in order to determine potential exposures while on the university’s campus."
   },
   {
     "objectID": "about.html#how-to-download",
     "href": "about.html#how-to-download",
-    "title": "About ViruScan",
+    "title": "About ViruScan - Frequently Asked Questions",
     "section": "How to Download?",
-    "text": "How to Download?\nIn order to download ViruScan, you must have a smartphone. Search ‘ViruScan’ in your smartphone’s app store - search for the UGA ViruScan logo. Download onto your phone and then login using your UGAID number and 2-Factor Authentication method.\n\n\n\nDownload Banner\n\n\nReferences"
+    "text": "How to Download?\n\n\n\nDownload Banner\n\n\n\nIn order to download ViruScan, you must have a smartphone.\n\nSearch ‘UGA Safe’ in your smartphone’s app store.\nDownload onto your phone and then login using your UGAID number and 2-Factor Authentication method.\nClick on ViruScan within the UGA Safe app and follow in-app set-up instructions. ViruScan will appear on UGA Safe’s homepage.\nEnable ViruScan to track your location so it is able to determine your recent contacts. You can do this in the settings for UGA Safe.\n\nReferences"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ViruScan",
     "section": "",
-    "text": "ViruScan Banner"
-  },
-  {
-    "objectID": "index.html#welcome-to-viruscan",
-    "href": "index.html#welcome-to-viruscan",
-    "title": "ViruScan",
-    "section": "Welcome to ViruScan",
-    "text": "Welcome to ViruScan\nThis website is made to simulate a contact tracing app’s surveillance dashboards for Natalie Cann’s EPID 8110 Digital Tools in Health Research Course Project."
+    "text": "Welcome to ViruScan\n\nThis website is made to simulate a contact tracing app’s surveillance dashboards for Natalie Cann’s EPID 8110 Digital Tools in Health Research Course Project.\n\nWeekly Dashboard Overview\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisit the University of Georgia's Health Center\n\n\n\n\n\n\n\nDiagnosed Cases in Past 7 Days (As of November 13th, 2025)\nCOVID19 : 831\nCold : 522\nFlu : 1,299\nRSV : 286\n\n\n\n\n\n\nVirus Trends From Past Three Weeks (As of November 13th, 2025)\nCOVID19: -8.1%\nCold: -7.8%\nFlu: -0.4%\nRSV: +14%\n\n\n\nSign-up For ViruScanSign up for ViruScan today in order to protect yourself and your community!In the act of doing so, you can win FREE student football tickets (or gift cards) to University of Georgia home games! All you have to do is be active registrated with ViruScan and share your location through UGA Safe. Each week before a home game, a set number of students will be randomly selected to receive a free ticket for the upcoming game. Notification of award will occur via email.\n\n\nFor instructions on how to download and set-up ViruScan please click \nhere\n."
   },
   {
     "objectID": "Dashboards/COVID19.html",

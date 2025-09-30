@@ -1,20 +1,52 @@
 ---
 title: "About ViruScan"
+format: 
+  html:
+    page-layout: full
+    theme: yeti
+    css: styles.css
 ---
-## What is ViruScan?
-ViruScan is a respiratory virus contact tracing app for students and factulty at the University of Georgia. Respiratory viruses, such as COVID-19, Influenza, Rhinovirus (the common cold), and Respiratory Syncytial Virus (RSV), are a great public health concern on college campuses, including the University of Georgia's. It has been estimated that roughly 91% of university students contract at least one upper respiratory infection each academic year [@nicholColdsInfluenzaLikeIllnesses2005]. ViruScan's aim is to reduce transmission of respiratory viral infections by digitizing contact tracing.
 
-## Who is Eligible? 
-Faculty and students of the University of Georgia are eligible to participate in contact tracing via ViruScan. Students must be 18 years or older and must reside in Athens, GA, or commute to Athens.
+<h2 style="text-align: center;">What is ViruScan?</h2>
 
-## Is My Data Private? 
-Yes, all data collected through ViruScan is private and secure. Notifications of exposure will always be de-identified in order to protect the privacy of those who are cases, while also informing those who came into contact with cases. Your location will only be tracked in order to determine potential exposures while on the university's campus.
+<img src="altapplogo.png" alt="App Logo" style="float: right; margin-left: 20px; width: 150px;">
 
-## How to Download?
-In order to download ViruScan, you must have a smartphone. Search 'UGA Safe' in your smartphone's app store. Download onto your phone and then login using your UGAID number and 2-Factor Authentication method. Click on ViruScan within the UGA Safe app and follow in-app set-up instructions.
-
-![Download Banner](downloadbanner.png)
+- ViruScan is a respiratory virus contact tracing app for students and faculty at the University of Georgia. 
 
 
-References
+- Respiratory viruses, such as COVID-19, Influenza, Rhinovirus (the common cold), and Respiratory Syncytial Virus (RSV), are a great public health concern on college campuses, including the University of Georgia's. 
 
+- According to Nichols et al., it has been estimated that roughly 91% of university students contract at least one upper respiratory infection 
+each academic year. 
+
+- ViruScan's aim is to reduce transmission of respiratory viral infections by digitizing contact tracing.
+
+<h2 style="text-align: center;">Who is Eligible?</h2>
+
+- Faculty and students of the University of Georgia are eligible to participate in contact tracing via ViruScan. 
+
+- Students must be 18 years or older and must reside in Athens, GA, or commute to Athens.
+
+<h2 style="text-align: center;">Is My Data Private?</h2>
+
+- Yes, all data collected through ViruScan is private and secure. 
+
+- Notifications of exposure will always be de-identified in order to protect the privacy of those who are cases, while also informing those who came into contact with cases. 
+
+- Your location will only be tracked in order to determine potential exposures while on the university's campus.
+
+<h2 style="text-align: center;">How Do I Download ViruScan?</h2>
+
+<img src="UGA_Safe_homepage.png" alt="UGA Safe Homepage" style="float: right; margin-left: 20px; width: 150px;">
+
+In order to download ViruScan, you must have a smartphone. 
+
+1. Search 'UGA Safe' in your smartphone's app store. 
+
+2. Download onto your phone and then login using your UGAID number and 2-Factor Authentication method. 
+
+3. Click on ViruScan within the UGA Safe app and follow in-app set-up instructions. ViruScan will appear on UGA Safe's homepage. 
+
+4. Enable ViruScan to track your location so it is able to determine your recent contacts. You can do this in the settings for UGA Safe. 
+
+![](downloadqr.png)

@@ -1,6 +1,10 @@
 ---
-title: "RSV"
-format: html
+title: "Respiratory Syncytial Virus (RSV)"
+format: 
+  html:
+    page-layout: full
+    theme: yeti
+    css: styles.css
 ---
 
 ## Overall University Report for Respiratory Syncytial Virus (RSV)
@@ -69,7 +73,7 @@ htmltools::tags$div(
   style = "margin-top:15px; padding:15px; border-radius:8px; 
            background-color:#f0f8ff; width:80%; 
            box-shadow:0 2px 5px rgba(0,0,0,0.1);",
-  htmltools::tags$h4("November 15th, 2025, Summary (as of latest data)", style="font-weight:bold;"),
+  htmltools::tags$h4("November 13th, 2025, Summary (as of latest data)", style="font-weight:bold;"),
   htmltools::tags$p(paste("Active Cases:", format(active_cases_rsv, big.mark=","))),
   htmltools::tags$p(paste("Cases in Past 72 Hours:", format(cases_72h_rsv, big.mark=",")))
 )

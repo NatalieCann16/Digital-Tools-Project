@@ -29,9 +29,27 @@ website:
     right:
       - icon: github 
         href: https://github.com/NatalieCann16/Digital-Tools-Project   
+
+  page-footer:
+    center:
+      - text: "About ViruScan"
+        href: about.html
+      - text: "COVID-19 Dashboard"
+        href: Dashboards/COVID19.html
+      - text: "Influenza Dashboard"
+        href: Dashboards/Influenza.html
+      - text: "Common Cold Dashboard"
+        href: Dashboards/Rhinovirus.html
+      - text: "RSV Dashboard"
+        href: Dashboards/RSV.html
+      - text: "Testing"
+        href: Testing_Vaccination/Testing.html
+      - text: "Vaccination"
+        href: Testing_Vaccination/Vaccination.html
+
 format:
   html:
     theme: yeti
     highlight: zenburn
     css: styles.css
-    toc: FALSE
+    toc: false
