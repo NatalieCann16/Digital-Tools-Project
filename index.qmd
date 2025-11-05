@@ -6,5 +6,22 @@ format:
     theme: yeti
     css: styles.css
 ---
-![](index_png/homepagescreen.png)
+<img src="index_png/NewHomeScreen.png" usemap="#viruMap" width="100%">
+
+<map name="viruMap">
+  <!-- Clickable area: Testing Info button -->
+  <area shape="rect" coords="85,1560,400,1700"
+        href="https://nataliecann16.github.io/Digital-Tools-Project/Testing_Vaccination/Testing.html" 
+        alt="Local Testing Information" target="_blank">
+
+  <!-- Clickable area: Health Center button -->
+  <area shape="rect" coords="415,1560,730,1700"
+        href="https://healthcenter.uga.edu/" 
+        alt="UGA Health Center" target="_blank">
+
+  <!-- Clickable area: CDC Guidelines -->
+  <area shape="rect" coords="745,1560,1060,1700"
+        href="https://www.cdc.gov/respiratory-viruses/index.html" 
+        alt="CDC Guidelines" target="_blank">
+</map>
 

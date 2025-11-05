@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Testing – ViruScan</title>
+<title>testing – ViruScan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,12 +66,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<script src="../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="../site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,10 +148,9 @@ ul.task-list li input[type="checkbox"] {
   </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/NatalieCann16/Digital-Tools-Project"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://prepare.uga.edu/uga-safe/"> 
+<span class="menu-text"><img src="UGASafelogo.png" alt="UGA Safe Logo" style="height:30px; width:auto; vertical-align:middle;"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -148,32 +160,77 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Testing</h1>
+
+
+
+<h1 style="text-align: center;">
+Medical Testing for Respiratory Viruses
+</h1>
+<p><img src="Testing/test_swab.png" style="float: right; margin-left: 15px; margin-bottom: 10px; width: 350px;"></p>
+<div style="font-size:115%;">
+<p>Receiving medical testing for respiratory viruses is crucial to <strong>determining whether or not you have contracted a viral illness</strong> such as COVID-19, RSV, or the flu.</p>
+<p>Testing can help prepare individuals to stay vigilant of complications, in which medical care is required.¹</p>
+<p>In terms of contact tracing, testing plays a crucial role as it signals individuals to <strong>stay home</strong> and isolate in order to <strong>reduce transmission</strong>.¹</p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<h1 style="text-align: center;">
+Medical Tests
+</h1>
+<div style="font-size:115%;">
+<p><strong>COVID-19</strong></p>
+<ul>
+<li><strong>Nucleic Acid Amplification Tests (NAATs)</strong> - gold-standard; administered by healthcare professionals; results in 3 days²</li>
+<li><strong>Antigen Tests</strong> - at-home tests; results in 15 to 30 minutes²
+<ul>
+<li>For negative tests: FDA recommends 2 negative antigen tests for individuals with symptoms 48 hours apart or 3 negative antigen tests for individuals without symptoms 48 hours apart²</li>
+</ul></li>
+</ul>
+<p><strong>Influenza</strong></p>
+<ul>
+<li><strong>Molecular Assay</strong> – rapid assays provide results in 15-30 minutes; other assays provide results in 45 minutes to an hour³</li>
+<li><strong>Antigen Detection Test</strong> – rapid tests provide results in 10-15 minutes³</li>
+</ul>
+<p><strong>Respiratory Syncytial Virus (RSV)</strong></p>
+<ul>
+<li><strong>Nucleic Acid Amplification Tests (NAATs)</strong> - highly sensitive; include real-time Reverse Transcription-Polymerase Chain Reaction (rRT-PCR)⁴</li>
+<li><strong>Antigen Tests</strong> - less sensitive; quicker results⁴</li>
+</ul>
+<p><strong>Rhinovirus (Common Cold)</strong></p>
+<ul>
+<li>Polymerase Chain Reaction (PCR) tests exist, however, medical providers do not test for rhinovirus typically</li>
+</ul>
+</div>
+<p style="text-align: center;">
+<img src="Testing/test_result.png" style="width: 400px; margin-top: 10px; margin-bottom: 10px;">
+</p>
+<h1 style="text-align: center;">
+Local Medical Testing in Athens, Georgia
+</h1>
+<div style="font-size:115%;">
+<p><strong>University of Georgia Health Center</strong> | Address: 55 Carlton St, Athens, GA 30602 | Phone: (706) 542-1162</p>
+<p><strong>CVS Pharmacy – 795 Oglethorpe Ave</strong> | Address: 795 Oglethorpe Ave, Athens, GA 30606 | Phone: (706) 549-6838</p>
+<p><strong>CVS Pharmacy – 3595 Atlanta Hwy</strong> | Address: 3595 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 549-8985</p>
+<p><strong>CVS Pharmacy – 170 W Broad St</strong> | Address: 170 W Broad St, Athens, GA 30601 | Phone: (706) 546-7476</p>
+<p><strong>CVS Pharmacy – 3065 Atlanta Hwy</strong> | Address: 3065 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 208-9379</p>
+<p><strong>Walgreens – 110 Hawthorne Ave</strong> | Address: 110 Hawthorne Ave, Athens, GA 30606 | Phone: (706) 543-2951</p>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-8f27a68ba71f47f272f1" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-8f27a68ba71f47f272f1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[33.945,33.957,33.9408,33.9581,33.9402,33.9459],[-83.3768,-83.4045,-83.44459999999999,-83.37949999999999,-83.444,-83.4055],7,null,null,{"interactive":true,"className":"","stroke":true,"color":"#84cdb5","weight":5,"opacity":0.5,"fill":true,"fillColor":"#b7e1d4","fillOpacity":0.8},null,null,["<b>University Health Center<\/b><br>Athens, GA 30602","<b>CVS - 795 Oglethorpe Ave<\/b><br>795 Oglethorpe Ave, Athens, GA 30606","<b>CVS - 3595 Atlanta Hwy<\/b><br>3595 Atlanta Hwy, Athens, GA 30606","<b>CVS - 170 W Broad St<\/b><br>170 W Broad St, Athens, GA 30601","<b>CVS - 3065 Atlanta Hwy<\/b><br>3065 Atlanta Hwy, Athens, GA 30606","<b>Walgreens - 110 Hawthorne Ave<\/b><br>110 Hawthorne Ave, Athens, GA 30606"],null,["University Health Center","CVS - 795 Oglethorpe Ave","CVS - 3595 Atlanta Hwy","CVS - 170 W Broad St","CVS - 3065 Atlanta Hwy","Walgreens - 110 Hawthorne Ave"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[33.9402,33.9581],"lng":[-83.44459999999999,-83.3768]},"setView":[[33.95,-83.39],12,[]]},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div style="font-size:50%;">
+<ol type="1">
+<li><a href="https://www.cdc.gov/respiratory-viruses/prevention/testing.html">CDC: Testing for Respiratory Viruses</a>, 2. <a href="https://www.cdc.gov/covid/testing/index.html">CDC: Testing for COVID-19</a>, 3. <a href="https://www.cdc.gov/flu/hcp/testing-methods/index.html">CDC: Influenza Testing Methods</a>, 4. <a href="https://www.cdc.gov/rsv/hcp/clinical-overview/diagnostic-testing.html">CDC: RSV Diagnostic Testing</a></li>
+</ol>
+</div>
 
 
 
@@ -604,8 +661,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
+ <img src="footer/combined.png" alt="" style="height:100px; width:auto; vertical-align:middle;">
+  </li>  
+    <li class="nav-item">
     <a class="nav-link" href="https://healthcenter.uga.edu/">
 <p>University of Georgia Health Center</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://prepare.uga.edu/uga-safe/">
+<p>UGA Safe</p>
 </a>
   </li>  
     <li class="nav-item">

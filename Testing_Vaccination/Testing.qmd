@@ -1,5 +1,121 @@
 ---
-title: "Testing"
-format: html
+title: ""
+format: 
+  html:
+    page-layout: full
+    theme: yeti
+    css: styles.css
 ---
+<h1 style="text-align: center;">Medical Testing for Respiratory Viruses</h1>
 
+<img src="Testing/test_swab.png" 
+     style="float: right; margin-left: 15px; margin-bottom: 10px; width: 350px;">
+     
+<div style="font-size:115%;">
+
+Receiving medical testing for respiratory viruses is crucial to **determining whether or not you have contracted a viral illness** such as COVID-19, RSV, or the flu.  
+
+Testing can help prepare individuals to stay vigilant of complications, in which medical care is required.¹  
+
+In terms of contact tracing, testing plays a crucial role as it signals individuals to **stay home** and isolate in order to **reduce transmission**.¹
+
+</div>
+
+
+
+<h1 style="text-align: center;">Medical Tests</h1>
+
+<div style="font-size:115%;">
+
+**COVID-19** 
+
+- **Nucleic Acid Amplification Tests (NAATs)** - gold-standard; administered by healthcare professionals; results in 3 days²
+- **Antigen Tests** - at-home tests; results in 15 to 30 minutes²
+  - For negative tests: FDA recommends 2 negative antigen tests for individuals with symptoms 48 hours apart or 3 negative antigen tests for individuals without symptoms 48 hours apart²
+
+**Influenza**
+
+- **Molecular Assay** – rapid assays provide results in 15-30 minutes; other assays provide results in 45 minutes to an hour³
+- **Antigen Detection Test** – rapid tests provide results in 10-15 minutes³
+
+**Respiratory Syncytial Virus (RSV)**
+
+- **Nucleic Acid Amplification Tests (NAATs)** - highly sensitive; include real-time Reverse Transcription-Polymerase Chain Reaction (rRT-PCR)⁴
+- **Antigen Tests** - less sensitive; quicker results⁴
+
+**Rhinovirus (Common Cold)**
+
+- Polymerase Chain Reaction (PCR) tests exist, however, medical providers do not test for rhinovirus typically
+
+</div>
+
+<p style="text-align: center;">
+  <img src="Testing/test_result.png" 
+       style="width: 400px; margin-top: 10px; margin-bottom: 10px;">
+</p>
+
+
+<h1 style="text-align: center;">Local Medical Testing in Athens, Georgia</h1>
+
+<div style="font-size:115%;">
+
+**University of Georgia Health Center** | Address: 55 Carlton St, Athens, GA 30602 | Phone: (706) 542-1162
+
+**CVS Pharmacy – 795 Oglethorpe Ave** | Address: 795 Oglethorpe Ave, Athens, GA 30606 | Phone: (706) 549-6838
+
+**CVS Pharmacy – 3595 Atlanta Hwy** | Address: 3595 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 549-8985
+
+**CVS Pharmacy – 170 W Broad St** | Address: 170 W Broad St, Athens, GA 30601 | Phone: (706) 546-7476
+
+**CVS Pharmacy – 3065 Atlanta Hwy** | Address: 3065 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 208-9379
+
+**Walgreens – 110 Hawthorne Ave** | Address: 110 Hawthorne Ave, Athens, GA 30606 | Phone: (706) 543-2951
+
+</div>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+library(dplyr)
+
+# Create data frame of medical testing sites
+testing_sites <- data.frame(
+  Site = c(
+    "University Health Center",
+    "CVS - 795 Oglethorpe Ave",
+    "CVS - 3595 Atlanta Hwy",
+    "CVS - 170 W Broad St",
+    "CVS - 3065 Atlanta Hwy",
+    "Walgreens - 110 Hawthorne Ave"
+  ),
+  Address = c(
+    "Athens, GA 30602",
+    "795 Oglethorpe Ave, Athens, GA 30606",
+    "3595 Atlanta Hwy, Athens, GA 30606",
+    "170 W Broad St, Athens, GA 30601",
+    "3065 Atlanta Hwy, Athens, GA 30606",
+    "110 Hawthorne Ave, Athens, GA 30606"
+  ),
+  Lat = c(33.9450, 33.9570, 33.9408, 33.9581, 33.9402, 33.9459),
+  Lng = c(-83.3768, -83.4045, -83.4446, -83.3795, -83.4440, -83.4055)
+)
+
+# Create interactive map
+leaflet(testing_sites) %>%
+  addProviderTiles("CartoDB.Positron") %>%   # clean background map
+  addCircleMarkers(
+    ~Lng, ~Lat,
+    label = ~Site,  # hover label
+    popup = ~paste0("<b>", Site, "</b><br>", Address),
+    color = "#84cdb5",
+    fillColor = "#b7e1d4",
+    fillOpacity = 0.8,
+    radius = 7
+  ) %>%
+  setView(lng = -83.39, lat = 33.95, zoom = 12)  # center on Athens
+```
+
+<div style="font-size:50%;">
+
+1. [CDC: Testing for Respiratory Viruses](https://www.cdc.gov/respiratory-viruses/prevention/testing.html), 2. [CDC: Testing for COVID-19](https://www.cdc.gov/covid/testing/index.html), 3. [CDC: Influenza Testing Methods](https://www.cdc.gov/flu/hcp/testing-methods/index.html), 4. [CDC: RSV Diagnostic Testing](https://www.cdc.gov/rsv/hcp/clinical-overview/diagnostic-testing.html)
+
+</div>

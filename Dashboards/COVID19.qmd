@@ -1,16 +1,19 @@
 ---
-title: "COVID-19"
+title: ""
 format: 
   html:
     page-layout: full
     theme: yeti
     css: styles.css
 ---
-![](COVID/covidscreen.png)
+![](COVID/COVID_Dashboard_update.png)
 
-## COVID-19 Infographic
-
-![](COVID/Covid-19infographic.png)
+<p style="text-align:center; margin-top:20px;">
+  <a href="COVID/Covid-19infographic.png" download="COVID_Infographic.png" 
+     style="background-color:#78c2db; color:white; padding:10px 20px; text-decoration:none; border-radius:8px; font-weight:bold;">
+    Download Infographic on COVID-19
+  </a>
+</p>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 

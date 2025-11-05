@@ -1,5 +1,115 @@
 ---
-title: "Vaccination"
-format: html
+title: ""
+format: 
+  html:
+    page-layout: full
+    theme: yeti
+    css: styles.css
 ---
+
+<h1 style="text-align: center;">Vaccines for Respiratory Viruses</h1>
+
+<img src="Vaccination/vaccine.png" 
+     style="float: right; margin-left: 15px; margin-bottom: 10px; width: 350px;">
+     
+<div style="font-size:115%;">
+
+Immunizations help boost the body's **adaptive immune system**, which memorizes pathogens that the body has come into contact with. This enables a more rapid response during subsequent exposures. 
+
+Vaccines **reduce** the likelihood of **contracting an illness**, while also **preventing severe illness and death**.¹
+
+</div>
+
+
+<h1 style="text-align: center;">Vaccinations</h1>
+
+**COVID-19** 
+
+- You cannot get COVID-19 from the vaccine(s)²
+- While your body is responding to the vaccine, you may develop a mild fever, headache or chills²
+- The vaccine(s) do not interact with your DNA²
+- **mRNA Vaccines (Pfizer and Moderna)** - introduce lab-made mRNA that simulates production of COVID-19 spike protein to lead to antibody production and memory²
+- **Protein Subunit Vaccine (Novavax)** - introduce COVID-19 spike protein²
+
+**Influenza**
+
+- Everyone 6 months or older should get vaccinated³
+- Under 65 yrs: Inactivated (IIV), Recombinant (RIV), Live Attenuated (LAIV)³
+- 65 yrs and older: Fluzone High-Dose, Flublok Recombinant, Fluad Adjuvanted³
+- **September and October** are the best months to get your flu vaccine to prepare for the upcoming flu season³
+- **Shot/Injection** - flu virus killed/inactivated; cannot cause flu³
+- **Nasal Spray** - flu virus weakened; cannot cause flu³
+
+**Respiratory Syncytial Virus (RSV)**
+
+- **RSV Vaccine** – everyone over 75 years old (and those of high risk between 50 and 74 years old); Obtain during late summer or early fall⁴
+- **RSV Vaccine/Pfizer’s ABRYSVO** – women during 32 - 36 weeks of their pregnancy; Obtain between September and January⁴
+- **RSV Antibodies** – babies whose mothers did not receive RSV vaccine while pregnant (and 8-19 month babies at high risk); Obtain beween October and March⁴
+
+
+<h1 style="text-align: center;">Local Vaccination Sites in Athens, Georgia</h1>
+
+<div style="font-size:115%;">
+
+**University of Georgia Health Center** | Address: 55 Carlton St, Athens, GA 30602 | Phone: (706) 542-1162
+
+**CVS Pharmacy – 795 Oglethorpe Ave** | Address: 795 Oglethorpe Ave, Athens, GA 30606 | Phone: (706) 549-6838
+
+**CVS Pharmacy – 3595 Atlanta Hwy** | Address: 3595 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 549-8985
+
+**CVS Pharmacy – 170 W Broad St** | Address: 170 W Broad St, Athens, GA 30601 | Phone: (706) 546-7476
+
+**CVS Pharmacy – 3065 Atlanta Hwy** | Address: 3065 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 208-9379
+
+**Walgreens – 110 Hawthorne Ave** | Address: 110 Hawthorne Ave, Athens, GA 30606 | Phone: (706) 543-2951
+
+</div>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+library(dplyr)
+
+# Create data frame of medical testing sites
+testing_sites <- data.frame(
+  Site = c(
+    "University Health Center",
+    "CVS - 795 Oglethorpe Ave",
+    "CVS - 3595 Atlanta Hwy",
+    "CVS - 170 W Broad St",
+    "CVS - 3065 Atlanta Hwy",
+    "Walgreens - 110 Hawthorne Ave"
+  ),
+  Address = c(
+    "Athens, GA 30602",
+    "795 Oglethorpe Ave, Athens, GA 30606",
+    "3595 Atlanta Hwy, Athens, GA 30606",
+    "170 W Broad St, Athens, GA 30601",
+    "3065 Atlanta Hwy, Athens, GA 30606",
+    "110 Hawthorne Ave, Athens, GA 30606"
+  ),
+  Lat = c(33.9450, 33.9570, 33.9408, 33.9581, 33.9402, 33.9459),
+  Lng = c(-83.3768, -83.4045, -83.4446, -83.3795, -83.4440, -83.4055)
+)
+
+# Create interactive map
+leaflet(testing_sites) %>%
+  addProviderTiles("CartoDB.Positron") %>%   # clean background map
+  addCircleMarkers(
+    ~Lng, ~Lat,
+    label = ~Site,  # hover label
+    popup = ~paste0("<b>", Site, "</b><br>", Address),
+    color = "#008cba",
+    fillColor = "#78c2db",
+    fillOpacity = 0.8,
+    radius = 7
+  ) %>%
+  setView(lng = -83.39, lat = 33.95, zoom = 12)  # center on Athens
+```
+
+<div style="font-size:50%;">
+
+1. [CDC: Vaccines for Respiratory Viruses](https://www.cdc.gov/respiratory-viruses/prevention/immunizations.html), 2. [CDC: COVID-19 Vaccine](https://www.cdc.gov/covid/vaccines/how-they-work.html), 3. [CDC: Influenza Vaccine](https://www.cdc.gov/flu/vaccines/keyfacts.html ), 4. [CDC: RSV Vaccine](https://www.cdc.gov/rsv/vaccines/index.html)
+
+</div>
+
 

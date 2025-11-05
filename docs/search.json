@@ -1,30 +1,51 @@
 [
   {
-    "objectID": "Dashboards/Rhinovirus.html#rhinovirus-common-cold-infographic",
-    "href": "Dashboards/Rhinovirus.html#rhinovirus-common-cold-infographic",
-    "title": "RhinoVirus (Common Cold)",
-    "section": "Rhinovirus (Common Cold) Infographic",
-    "text": "Rhinovirus (Common Cold) Infographic"
+    "objectID": "Dashboards/Rhinovirus.html",
+    "href": "Dashboards/Rhinovirus.html",
+    "title": "ViruScan",
+    "section": "",
+    "text": "Download Infographic on Rhinovirus"
   },
   {
-    "objectID": "Dashboards/Influenza.html#influenza-flu-infographic",
-    "href": "Dashboards/Influenza.html#influenza-flu-infographic",
-    "title": "Influenza",
-    "section": "Influenza (Flu) Infographic",
-    "text": "Influenza (Flu) Infographic"
+    "objectID": "Dashboards/Influenza.html",
+    "href": "Dashboards/Influenza.html",
+    "title": "ViruScan",
+    "section": "",
+    "text": "Download Infographic on Influenza"
   },
   {
-    "objectID": "Dashboards/COVID19.html#covid-19-infographic",
-    "href": "Dashboards/COVID19.html#covid-19-infographic",
-    "title": "COVID-19",
-    "section": "COVID-19 Infographic",
-    "text": "COVID-19 Infographic"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About ViruScan",
+    "section": "",
+    "text": "ViruScan is an application designed to perform contact tracing for respiratory viruses, including COVID-19, flu, RSV, and rhinovirus, at UGA. It is the first app of its kind to do so for multiple respiratory viruses. It utilizes GPS-location tracking and Bluetooth technology to determine participant’s potential contacts. All notifications of exposure are anonymous. Contacts receive information regarding testing. Participants can report cases through the ViruScan module within the UGA Safe App.\nViruScan was created for a course project (EPID 8110 at UGA). Therefore, this website is simply a mock-up demonstrating what a public-facing dashboard for ViruScan would look like. All data utilized to develop graphs and tables were made-up for the purpose of the mock-up.\n\nWatch our Short Video about ViruScan\n\n\n\n\n\nFrequently Asked Questions\n\n\n\nWhat is ViruScan?\n\n\nViruScan is a respiratory virus contact tracing app for students and faculty at the University of Georgia.\nRespiratory viruses, such as COVID-19, Influenza, Rhinovirus (the common cold), and Respiratory Syncytial Virus (RSV), are a great public health concern on college campuses, including the University of Georgia’s.\nAccording to Nichols et al., it has been estimated that roughly 91% of university students contract at least one upper respiratory infection each academic year.\nViruScan’s aim is to reduce transmission of respiratory viral infections by digitizing contact tracing.\n\n\n\n\nHow does ViruScan work?\n\n\nEligible participants download ViruScan and consent for their location to be tracked via GPS.\nBluetooth technology is used to determine contacts between ViruScan users.\nWhen a user comes into contact with someone who has been diagnosed with a case of a respiratory virus, they will receive a de-identified notification of exposure to a specific illness.\nTesting information will be shared alongside the notification.\n\n\n\n\nWho is eligible to download ViruScan?\n\n\nFaculty, staff, & students of the University of Georgia are eligible to participate in contact tracing via ViruScan.\nStudents must be 18 years or older and must reside in Athens, GA, or commute to Athens.\nIn order to participate in contact-tracing, one must enable UGA Safe & ViruScan to track their location.\n\n\n\n\nIs my data private?\n\n\nYes, all data collected through ViruScan is private and secure.\n\nYour GPS data is encrypted and stored on a university server.\nYour GPS data is deleted 30 days after it is recorded.\nYour location will only be tracked in order to determine potential exposures.\n\nNotifications of exposure will always be de-identified in order to protect the privacy of those who are cases, while also informing those who came into contact with cases.\nTo login to ViruScan, one must use their UGA MyID credentials.\n\n\n\n\nHow to download and access ViruScan?\n\n\n\nSearch ‘UGA Safe’ in your smartphone’s app store.\n\n\nDownload onto your phone and then login using your UGA MyID credentials.\n\n\nClick on ViruScan within the UGA Safe app and follow in-app set-up instructions. ViruScan will appear on UGA Safe’s homepage.\n\n\nEnable ViruScan to track your location so it can determine your recent contacts. You can do this in the settings for UGA Safe."
   },
   {
-    "objectID": "Dashboards/RSV.html#rsv-respiratory-syncytial-virus-infographic",
-    "href": "Dashboards/RSV.html#rsv-respiratory-syncytial-virus-infographic",
-    "title": "Respiratory Syncytial Virus (RSV)",
-    "section": "RSV (Respiratory Syncytial Virus) Infographic",
-    "text": "RSV (Respiratory Syncytial Virus) Infographic"
+    "objectID": "Testing_Vaccination/Testing.html",
+    "href": "Testing_Vaccination/Testing.html",
+    "title": "\nMedical Testing for Respiratory Viruses\n",
+    "section": "",
+    "text": "Medical Testing for Respiratory Viruses\n\n\n\nReceiving medical testing for respiratory viruses is crucial to determining whether or not you have contracted a viral illness such as COVID-19, RSV, or the flu.\nTesting can help prepare individuals to stay vigilant of complications, in which medical care is required.¹\nIn terms of contact tracing, testing plays a crucial role as it signals individuals to stay home and isolate in order to reduce transmission.¹\n\n\nMedical Tests\n\n\nCOVID-19\n\nNucleic Acid Amplification Tests (NAATs) - gold-standard; administered by healthcare professionals; results in 3 days²\nAntigen Tests - at-home tests; results in 15 to 30 minutes²\n\nFor negative tests: FDA recommends 2 negative antigen tests for individuals with symptoms 48 hours apart or 3 negative antigen tests for individuals without symptoms 48 hours apart²\n\n\nInfluenza\n\nMolecular Assay – rapid assays provide results in 15-30 minutes; other assays provide results in 45 minutes to an hour³\nAntigen Detection Test – rapid tests provide results in 10-15 minutes³\n\nRespiratory Syncytial Virus (RSV)\n\nNucleic Acid Amplification Tests (NAATs) - highly sensitive; include real-time Reverse Transcription-Polymerase Chain Reaction (rRT-PCR)⁴\nAntigen Tests - less sensitive; quicker results⁴\n\nRhinovirus (Common Cold)\n\nPolymerase Chain Reaction (PCR) tests exist, however, medical providers do not test for rhinovirus typically\n\n\n\n\n\n\nLocal Medical Testing in Athens, Georgia\n\n\nUniversity of Georgia Health Center | Address: 55 Carlton St, Athens, GA 30602 | Phone: (706) 542-1162\nCVS Pharmacy – 795 Oglethorpe Ave | Address: 795 Oglethorpe Ave, Athens, GA 30606 | Phone: (706) 549-6838\nCVS Pharmacy – 3595 Atlanta Hwy | Address: 3595 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 549-8985\nCVS Pharmacy – 170 W Broad St | Address: 170 W Broad St, Athens, GA 30601 | Phone: (706) 546-7476\nCVS Pharmacy – 3065 Atlanta Hwy | Address: 3065 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 208-9379\nWalgreens – 110 Hawthorne Ave | Address: 110 Hawthorne Ave, Athens, GA 30606 | Phone: (706) 543-2951\n\n\n\n\n\n\n\n\n\nCDC: Testing for Respiratory Viruses, 2. CDC: Testing for COVID-19, 3. CDC: Influenza Testing Methods, 4. CDC: RSV Diagnostic Testing"
+  },
+  {
+    "objectID": "Testing_Vaccination/Vaccination.html",
+    "href": "Testing_Vaccination/Vaccination.html",
+    "title": "\nVaccines for Respiratory Viruses\n",
+    "section": "",
+    "text": "Vaccines for Respiratory Viruses\n\n\n\nImmunizations help boost the body’s adaptive immune system, which memorizes pathogens that the body has come into contact with. This enables a more rapid response during subsequent exposures.\nVaccines reduce the likelihood of contracting an illness, while also preventing severe illness and death.¹\n\n\nVaccinations\n\nCOVID-19\n\nYou cannot get COVID-19 from the vaccine(s)²\nWhile your body is responding to the vaccine, you may develop a mild fever, headache or chills²\nThe vaccine(s) do not interact with your DNA²\nmRNA Vaccines (Pfizer and Moderna) - introduce lab-made mRNA that simulates production of COVID-19 spike protein to lead to antibody production and memory²\nProtein Subunit Vaccine (Novavax) - introduce COVID-19 spike protein²\n\nInfluenza\n\nEveryone 6 months or older should get vaccinated³\nUnder 65 yrs: Inactivated (IIV), Recombinant (RIV), Live Attenuated (LAIV)³\n65 yrs and older: Fluzone High-Dose, Flublok Recombinant, Fluad Adjuvanted³\nSeptember and October are the best months to get your flu vaccine to prepare for the upcoming flu season³\nShot/Injection - flu virus killed/inactivated; cannot cause flu³\nNasal Spray - flu virus weakened; cannot cause flu³\n\nRespiratory Syncytial Virus (RSV)\n\nRSV Vaccine – everyone over 75 years old (and those of high risk between 50 and 74 years old); Obtain during late summer or early fall⁴\nRSV Vaccine/Pfizer’s ABRYSVO – women during 32 - 36 weeks of their pregnancy; Obtain between September and January⁴\nRSV Antibodies – babies whose mothers did not receive RSV vaccine while pregnant (and 8-19 month babies at high risk); Obtain beween October and March⁴\n\n\nLocal Vaccination Sites in Athens, Georgia\n\n\nUniversity of Georgia Health Center | Address: 55 Carlton St, Athens, GA 30602 | Phone: (706) 542-1162\nCVS Pharmacy – 795 Oglethorpe Ave | Address: 795 Oglethorpe Ave, Athens, GA 30606 | Phone: (706) 549-6838\nCVS Pharmacy – 3595 Atlanta Hwy | Address: 3595 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 549-8985\nCVS Pharmacy – 170 W Broad St | Address: 170 W Broad St, Athens, GA 30601 | Phone: (706) 546-7476\nCVS Pharmacy – 3065 Atlanta Hwy | Address: 3065 Atlanta Hwy, Athens, GA 30606 | Phone: (706) 208-9379\nWalgreens – 110 Hawthorne Ave | Address: 110 Hawthorne Ave, Athens, GA 30606 | Phone: (706) 543-2951\n\n\n\n\n\n\n\n\n\nCDC: Vaccines for Respiratory Viruses, 2. CDC: COVID-19 Vaccine, 3. CDC: Influenza Vaccine, 4. CDC: RSV Vaccine"
+  },
+  {
+    "objectID": "Dashboards/COVID19.html",
+    "href": "Dashboards/COVID19.html",
+    "title": "ViruScan",
+    "section": "",
+    "text": "Download Infographic on COVID-19"
+  },
+  {
+    "objectID": "Dashboards/RSV.html",
+    "href": "Dashboards/RSV.html",
+    "title": "ViruScan",
+    "section": "",
+    "text": "Download Infographic on RSV"
   }
 ]

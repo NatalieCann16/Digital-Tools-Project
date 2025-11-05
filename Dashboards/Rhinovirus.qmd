@@ -1,13 +1,16 @@
 ---
-title: "RhinoVirus (Common Cold)"
+title: ""
 format: 
   html:
     page-layout: full
     theme: yeti
     css: styles.css
 ---
-![](Cold/coldscreen.png)
+![](Cold/Cold_Dashboard_update.png)
 
-## Rhinovirus (Common Cold) Infographic
-
-![](Cold/Rhinovirusinfographic.png)
+<p style="text-align:center; margin-top:20px;">
+  <a href="Cold/Rhinovirusinfographic.png" download="Rhinovirus_Flyer.png" 
+     style="background-color:#78c2db; color:white; padding:10px 20px; text-decoration:none; border-radius:8px; font-weight:bold;">
+    Download Infographic on Rhinovirus
+  </a>
+</p>

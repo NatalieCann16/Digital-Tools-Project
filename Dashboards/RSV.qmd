@@ -1,13 +1,15 @@
 ---
-title: "Respiratory Syncytial Virus (RSV)"
+title: ""
 format: 
   html:
     page-layout: full
     theme: yeti
     css: styles.css
 ---
-![](RSV/rsvscreen.png)
-
-## RSV (Respiratory Syncytial Virus) Infographic
-
-![](RSV/RSVinfographic.png)
+![](RSV/RSV_Dashboard_update.png)
+<p style="text-align:center; margin-top:20px;">
+  <a href="RSV/RSVinfographic.png" download="RSV_Infographic.png" 
+     style="background-color:#78c2db; color:white; padding:10px 20px; text-decoration:none; border-radius:8px; font-weight:bold;">
+    Download Infographic on RSV
+  </a>
+</p>

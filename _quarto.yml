@@ -25,29 +25,31 @@ website:
             file: Testing_Vaccination/Testing.qmd
           - text: "Vaccination"
             file: Testing_Vaccination/Vaccination.qmd
-
     right:
-      - icon: github 
-        href: https://github.com/NatalieCann16/Digital-Tools-Project   
+      - href: https://prepare.uga.edu/uga-safe/
+        text: "<img src='UGASafelogo.png' alt='UGA Safe Logo' style='height:30px; width:auto; vertical-align:middle;'>"
 
   page-footer:
     center:
-      - text: "University of Georgia Health Center"
-        href: https://healthcenter.uga.edu/
-      - text: "About ViruScan"
-        href: about.html
-      - text: "COVID-19 Dashboard"
-        href: Dashboards/COVID19.html
-      - text: "Influenza Dashboard"
-        href: Dashboards/Influenza.html
-      - text: "Common Cold Dashboard"
-        href: Dashboards/Rhinovirus.html
-      - text: "RSV Dashboard"
-        href: Dashboards/RSV.html
-      - text: "Testing"
-        href: Testing_Vaccination/Testing.html
-      - text: "Vaccination"
-        href: Testing_Vaccination/Vaccination.html
+      - text: "<img src='footer/combined.png' alt='' style='height:100px; width:auto; vertical-align:middle;'>"
+      - href: https://healthcenter.uga.edu/
+        text: "University of Georgia Health Center"
+      - href: https://prepare.uga.edu/uga-safe/
+        text: "UGA Safe"
+      - href: about.html
+        text: "About ViruScan"
+      - href: Dashboards/COVID19.html
+        text: "COVID-19 Dashboard"
+      - href: Dashboards/Influenza.html
+        text: "Influenza Dashboard"
+      - href: Dashboards/Rhinovirus.html
+        text: "Common Cold Dashboard"
+      - href: Dashboards/RSV.html
+        text: "RSV Dashboard"
+      - href: Testing_Vaccination/Testing.html
+        text: "Testing"
+      - href: Testing_Vaccination/Vaccination.html
+        text: "Vaccination"
 
 format:
   html:
@@ -55,3 +57,4 @@ format:
     highlight: zenburn
     css: styles.css
     toc: false
+
